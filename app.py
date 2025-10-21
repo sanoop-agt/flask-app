@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-  message = "<h1><center> Hello World app! This is my continous deployment Project <center><h1>".format(hostname)
+  message = "<h1><center> Hello World app! Version 1 <center><h1>".format(hostname)
   return message
 
 if __name__ == "__main__":
